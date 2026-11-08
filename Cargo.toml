@@ -1,0 +1,12 @@
+[package]
+name = "solana-portfolio-api"
+version = "0.1.0"
+edition = "2021"
+authors = ["Danya <starkos>"]
+description = "High-reliability, zero-dependency Solana DeFi portfolio valuation microservice built on Axum and Tokio."
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
